@@ -1,4 +1,4 @@
-package OOP.constructor;
+package OOP.constructor_encapsulation;
 
 public class Example2 {
     public static void main(String[] args) {

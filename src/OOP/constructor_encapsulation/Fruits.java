@@ -1,4 +1,4 @@
-package OOP.constructor;
+package OOP.constructor_encapsulation;
 
 public class Fruits {
     private String name;

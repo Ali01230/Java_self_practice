@@ -76,7 +76,13 @@ public class Ground1 {
             System.out.println("Narx ozgarmadi: " + milk);
         }
 
+    }
 
+    static int heyCal(int a, int b){
+        return  a + b;
+    }
 
+    static int heyCal(int a){
+        return  a + 5;
     }
 }
