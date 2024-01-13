@@ -1,6 +1,6 @@
 package dastur_uz;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Begin6 {
     public static void main(String[] args) {
