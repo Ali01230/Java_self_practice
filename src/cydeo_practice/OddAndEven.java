@@ -15,9 +15,9 @@ public class OddAndEven {
     }
 
     static boolean isOdd(int number){
-        int TOQ = number % 2;
+        int toq = number % 2;
 
-        if (TOQ == 1){
+        if (toq == 1){
             return true;
         }
 
