@@ -15,9 +15,15 @@ public class OddAndEven {
     }
 
     static boolean isOdd(int number){
+<<<<<<< HEAD
         int toq = number % 2;
 
         if (toq == 1){
+=======
+        int TOQ = number % 2;
+
+        if (TOQ == 1){
+>>>>>>> origin/master
             return true;
         }
 
