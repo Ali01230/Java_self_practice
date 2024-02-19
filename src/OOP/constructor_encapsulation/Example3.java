@@ -6,15 +6,15 @@ public class Example3 {
 
         Fruits apple = new Fruits("apple", "green", 200);
 
-        apple.setName("Apple");
-        System.out.println(apple.getName());
 
-        apple.setColor("Black");
+        apple.setName("Apple bang!!!");
+        System.out.println(apple.getName().toUpperCase());
+
+        apple.setColor("White");
         System.out.println(apple.getColor());
 
-        apple.setWeight(300);
+        apple.setWeight(10000);
         System.out.println(apple.getWeight());
-
 
 
     }

@@ -3,7 +3,7 @@ package m35_java_lang_classes;
 
 import java.util.*;
 
-public class ArrayListMethods {
+public class ArrayListPractice {
     public static void main(String[] args) {
 
         ArrayList<String> groceriesList = new ArrayList<>();

@@ -5,6 +5,7 @@ public class Fruits {
     private String color;
     private int weight;
 
+
     public String getName() {
         return name;
     }
@@ -29,12 +30,15 @@ public class Fruits {
         this.weight = weight;
     }
 
-
     Fruits(String name, String color, int weight) {
         this.name = name;
         this.color = color;
         this.weight = weight;
     }
+
+
+    //   5 ta Developers
+    //   5 ta professions
 
 
 }

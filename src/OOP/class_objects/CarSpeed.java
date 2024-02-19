@@ -1,15 +1,28 @@
 package OOP.class_objects;
 
-public class CarSpeed {
-    public static void main(String[] args) {
+import Practices.encapsulation.QAtester;
 
+public class CarSpeed extends QAtester {
+
+    int gas;
+    String model;
+
+    public CarSpeed(int experiance, String country, String workplace, String programmingLanguage, double salary, int gas, String model) {
+        super(experiance, country, workplace, programmingLanguage, salary);
+        this.gas = gas;
+        this.model = model;
     }
 
-    void fullBak(){
-        System.out.println("bak tola");
-
+    @Override
+    public String toString() {
+        return "CarSpeed{" +
+                "gas=" + gas +
+                ", model='" + model + '\'' +
+                '}';
     }
-    void tezlik(int maxSpeed){
-        System.out.println("maximum tezligi : " + maxSpeed);
+
+
+    void Test(int gas){
+        this.gas = gas;
     }
 }
